@@ -1,5 +1,5 @@
-from teams import a,b
+from teams import my_algo, default_algo1
 
-TEAM1 = a
-TEAM2 = b
+TEAM1 = my_algo
+TEAM2 = default_algo1
 VALUE_ERROR = False

@@ -50,3 +50,4 @@ team2_test_pass = validate_module(TEAM2, "TEAM 2") or team2_test_pass
 
 if team1_test_pass and team2_test_pass:
     Game(TEAM1.troops,TEAM2.troops,TEAM1.team_name,TEAM2.team_name).run()
+
