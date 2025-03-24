@@ -40,7 +40,7 @@ def logic(arena_data: dict):
     # List of all troop weakness
     weakness = {
     "Archer": ["everything"],
-    "Minion": ["Archer", "Musketeer", "Minion", "Wizard"],
+    "Minion": ["Minion", "Archer", "Musketeer", "Wizard"],
     "Knight": ["everything"],
     "Skeleton": ["Skeleton", "Valkyrie", "Dragon", "Wizard"],
     "Dragon": ["Minion", "Dragon", "Wizard", "Archer", "Musketeer"],
